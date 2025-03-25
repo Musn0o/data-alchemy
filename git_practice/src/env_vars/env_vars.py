@@ -12,3 +12,8 @@ dotenv_path = find_dotenv()
 print(dotenv_path)
 load = load_dotenv(dotenv_path)
 print(load)
+
+API_KEY = os.getenv("API_KEY")
+print(API_KEY)
+PASSWORD = os.getenv("PASSWORD")
+print(PASSWORD)
